@@ -9,7 +9,7 @@ Try running a script by opening `script.py` in the editor and clicking the trian
 You can also execute python script from the CLI (either from the terminal in VS code or any terminal). Make sure you are in the correct directory.
 
 ```
-conda activate mude-base
+conda activate mude-base-2026  
 ```
 
 This makes sure you run python from the correct conda environment. After that you can execute files with:
@@ -33,7 +33,6 @@ def nerdy_computation(x):
 
 print("Hello MUDE! Let's compute something nerdy:")
 result = nerdy_computation(10)
-print(f"The sum of the squares of the first 10 natural numbers is {result}")
+print(f"The sum of the squares of the first 10 natural numbers is {result}")  
 ```
-
 > By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
